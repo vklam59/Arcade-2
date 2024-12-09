@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="Lyn Lam" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Arcade</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <p id="display"></p>
+      <h1>ARCADE</h1>
+      <div id="center">
+        <button onclick="guessingGame();">Guessing Game</button>
+        <button onclick="consultOracle();">Consult the Oracle</button>
+        <button onclick="bnh();">Bear, Ninja, Hunter</button>
+      </div>
+    </div>
+
+    <div id="farewell-container">
+      <div class="farewell-message">
+        Thank you for playing! Until next time!
+      </div>
+      <table id="stat">
+        <h1>Playing Session Statistic</h1>
+      </table>
+      <button class="reload-button" onclick="location.reload()">
+        Reload Page</button
+      >;
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
